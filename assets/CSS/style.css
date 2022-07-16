@@ -82,13 +82,17 @@ p {
     color: var(--Soft-blue);
     font-weight: 400;
 }
+.line {
+    margin-top: 2rem;
+    border: 0.1rem solid var(--Very-dark-blue-line);
+}
 .perfil span {
     color: var(--White);
 }
 .perfil {
     display: flex;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .perfil img {
@@ -97,4 +101,5 @@ p {
     border-radius: 50%;
     border: 0.1rem solid #FFF;
 }
+
 
