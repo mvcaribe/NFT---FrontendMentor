@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Outfit', sans-serif;
     font-size: 1.8rem;
+    font-weight: 300;
 }
 :root {
     --Soft-blue: hsl(215, 51%, 70%);
@@ -37,6 +38,7 @@ section {
     padding: 2rem;
     
     border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .NFT--imagem {
     display: flex;
@@ -44,7 +46,7 @@ section {
     margin-bottom: 2rem;    
 }
 .NFT {
-    width: 20rem;
+    width: 30rem;
     object-fit: cover;
     border-radius: 1rem;
 }
@@ -60,3 +62,39 @@ h1 {
 p {
     color: var(--Soft-blue);
 }
+
+.infor--price {
+    display: flex;
+    justify-content: space-between;
+}
+.price, .time {
+    display: flex;
+    align-items: center;
+}
+.price h2, .time h3{
+    margin-left: 0.5rem;
+}
+.price h2 {
+    color: var(--Cyan);
+    font-weight: 600;
+}
+.time h3, .perfil h3 {
+    color: var(--Soft-blue);
+    font-weight: 400;
+}
+.perfil span {
+    color: var(--White);
+}
+.perfil {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.perfil img {
+    width: 3rem;
+    margin-right: 1.5rem;
+    border-radius: 50%;
+    border: 0.1rem solid #FFF;
+}
+
